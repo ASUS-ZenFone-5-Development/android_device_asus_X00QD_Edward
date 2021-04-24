@@ -2,7 +2,6 @@
 allow system_server sysfs_battery_supply:file { getattr open read write };
 
 allow system_server userspace_reboot_exported_prop:file { read };
-allow system_server exported_camera_prop:file { read };
+allow system_server exported_camera_prop:file { read open };
 allow system_server hal_light_default:process { signal };
-allow system_server object_r:file { open };
 allow system_server userspace_reboot_exported_prop:file { open };
