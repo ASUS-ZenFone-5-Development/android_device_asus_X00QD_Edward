@@ -35,6 +35,9 @@ PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00QD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_NAME := havoc_X00QD
+HAVOC_BUILD_TYPE := Official
+HAVOC_MAINTAINER := Edward Wu (edwardwu0223)
+HAVOC_GROUP_URL := https://t.me/havoc_X00QD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
@@ -46,6 +49,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
-
-# Official
-#export HAVOC_BUILD_TYPE=Official
