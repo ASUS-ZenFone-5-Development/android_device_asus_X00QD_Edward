@@ -201,15 +201,15 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">1</integer>
+    <integer name="config_screenBrightnessDim">10</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
-     <integer name="config_screenBrightnessSettingDefault">46</integer>
+     <integer name="config_screenBrightnessSettingDefault">102</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-     <integer name="config_screenBrightnessSettingMinimum">1</integer>
+     <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
     <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
     
@@ -604,9 +604,6 @@
     
     <!-- Enable Smart charging. -->
     <bool name="config_smartChargingAvailable">true</bool>
-
-    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
-    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
